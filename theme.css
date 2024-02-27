@@ -59,7 +59,7 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       18px;
+  --title-size:       36px;
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
@@ -75,4 +75,21 @@ d-appendix {
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
+
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+
+
+.distill-site-header .logo img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    max-height: 75px;
+}
+
+.distill-site-header {
+    height: 100px;
+}
+
 
